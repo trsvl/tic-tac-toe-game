@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(170, 170, 170);
+
+  text-align: center;
+  justify-content: center;
+}
+main {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  display: none;
+}
+#grid {
+  margin-top: 100px;
+  width: 600px;
+  height: 600px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+.section {
+  width: 196px;
+  height: 196px;
+  border: 2px solid black;
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+footer p {
+  font-size: 40px;
+}
+button {
+  width: 200px;
+  height: 40px;
+}
+button:hover {
+  background-color: rgb(138, 131, 131);
+}
+#value {
+  font-size: 150px;
+  line-height: 196px;
+  margin: 0;
+}
+#choosed {
+  display: none;
+}
+#winner {
+  display: none;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <main id="main">
+      <div id="grid">
+      </div>
+    </main>
+    <footer>
+      <div id="choose">
+        <p>Choose a side:</p>
+        <button onclick="chooseSide(true)">X</button>
+        <button onclick="chooseSide(false)">O</button>
+      </div>
+      <div id="choosed">
+        <p>You choosed: <b id="elems"></b></p>
+        <button onclick="Restart()">Restart</button>
+      </div>
+      <div id="winner">
+        <p><b id="win-elem"></b> won!!!</p>
+        <button onclick="Restart()">Restart</button>
+      </div>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
